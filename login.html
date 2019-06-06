@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- Compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+		
+
+	<title> Login </title>
+	
+	  
+	</head>
+	<body>
+	
+	
+  <nav>
+		<div class="nav-wrapper">
+		  <a href="#!" class="brand-logo">Logo</a>
+		  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		  <ul class="right hide-on-med-and-down">
+			<li><a href="/home">Home</a></li>
+			<li><a href="/food">Food</a></li>
+			<li><a href="/register">Register</a></li>
+			<li><a href="/login">Login</a></li>
+		  </ul>
+		</div>
+	  </nav>
+	  
+	<ul class="sidenav" id="mobile-demo">
+   			<li><a href="/home">Home</a></li>
+			<li><a href="/food">Food</a></li>
+			<li><a href="/register">Register</a></li>
+			<li><a href="/login">Login</a></li>
+    </ul>
+	
+	<div>
+	<h4> Login  </h4>
+	</div>
+	
+	<div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="username" type="text" class="validate">
+          <label for="username">username</label>
+        </div>
+      </div>
+	  <div class="row">
+		  <div class="input-field col s6">
+			  <input placeholder="Placeholder" id="Password" type="text" class="validate">
+			  <label for="Password">Password</label>
+			</div>
+	  </div>
+      </div>
+	  
+	  <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+	  
+    </form>
+	
+	
+	    <!-- Compiled and minified JavaScript -->
+	<script
+  src="http://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"> </script>
+
+  <!-- import materialize -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <script src="custom.js"> </script>
+ <script>
+	 $(document).ready(function(){
+		$('.sidenav').sidenav();
+	  });
+ </script>
+ 
+	</body>
+</html>
